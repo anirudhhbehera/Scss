@@ -1,0 +1,32 @@
+/* file import */
+
+@import 'variables';
+@import 'mixins';
+@import 'card';
+
+body {
+    font-family: $fonts; /* variable usage */
+    background-color: $primary-color;
+    padding: $spacing;
+    min-height: 100vh;
+    @include flex-center(); /* using the mixins function */
+}
+
+a{
+    background-color: $primary-color;
+    border: none;
+    color: white;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 10px 0px;
+    border-radius: 30px;
+    cursor: pointer;
+    &:hover{
+        background-color: $dark-grey;
+    }
+}
+
+  

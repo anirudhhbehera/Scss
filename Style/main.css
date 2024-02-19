@@ -1,0 +1,61 @@
+/* file import */
+/* $radius is the parameter of the function */
+.card {
+  background-color: white;
+  width: 20rem;
+  overflow: hidden;
+  margin: 2rem;
+  box-shadow: 5px 5px 5px 5px #000;
+  border-radius: 0.5rem;
+  /* using the mixins function */
+}
+.card img {
+  height: 15rem;
+  background-size: cover;
+  background-position: center center;
+}
+.card .card_content {
+  padding: 2rem;
+}
+.card .card_title {
+  margin: 0;
+  color: black;
+}
+.card .card_description {
+  margin: 0;
+  color: #999;
+}
+.card_dark {
+  background-color: black;
+}
+.card_dark .card_title {
+  color: white;
+}
+
+body {
+  font-family: "Poppins", Helvetica, sans-serif; /* variable usage */
+  background-color: #ab99ca;
+  padding: 2rem;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* using the mixins function */
+}
+
+a {
+  background-color: #ab99ca;
+  border: none;
+  color: white;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 10px 0px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+a:hover {
+  background-color: #999;
+}/*# sourceMappingURL=main.css.map */
